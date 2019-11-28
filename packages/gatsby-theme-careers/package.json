@@ -1,7 +1,7 @@
 {
   "name": "gatsby-theme-careers",
   "description": "A Gatsby theme that generates a simple job listing site using Contentful as data source.",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/iagodahlem/gatsby-theme-careers",
   "author": "iagodahlem <iagodahlemlorensini@gmail.com> (@iagodahlem)",
