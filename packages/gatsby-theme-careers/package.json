@@ -1,0 +1,33 @@
+{
+  "name": "gatsby-theme-careers",
+  "description": "A Gatsby theme that generates a simple job listing site using Contentful as data source.",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/iagodahlem/gatsby-theme-careers",
+  "author": "iagodahlem <iagodahlemlorensini@gmail.com> (@iagodahlem)",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+  },
+  "dependencies": {
+    "@contentful/rich-text-react-renderer": "^13.4.0",
+    "@styled-system/css": "^5.0.23",
+    "@styled-system/theme-get": "^5.1.2",
+    "babel-plugin-styled-components": "^1.10.6",
+    "contentful-migration": "^1.0.6",
+    "flokit": "^1.0.0-alpha.1",
+    "gatsby-plugin-styled-components": "^3.1.14",
+    "gatsby-source-contentful": "^2.1.64",
+    "styled-components": "^4.4.1"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.18.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "gatsby": "^2.18.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}

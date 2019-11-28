@@ -1,0 +1,21 @@
+{
+  "name": "example",
+  "private": true,
+  "version": "0.0.0",
+  "author": "iagodahlem <iagodahlemlorensini@gmail.com> (@iagodahlem)",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "yarn develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "gatsby": "^2.18.4",
+    "gatsby-theme-careers": "*",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
