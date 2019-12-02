@@ -5,8 +5,8 @@ import Jobs from '../components/Jobs'
 export default ({ data }) => <Jobs jobs={data.jobs.edges} />
 
 export const query = graphql`
-  query JobsQuery {
-    jobs: allContentfulJob(sort: { order: ASC, fields: [slug] }) {
+  query TagsQuery($slug: String!) {
+    jobs: allContentfulJob(filter: {tags: {elemMatch: {slug: {eq: $slug }}}}) {
       edges {
         node {
           slug
