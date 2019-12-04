@@ -1,8 +1,10 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import JobsTags from '../components/JobsTags'
+import Tag from '../components/Tag'
 
-export default ({ data }) => <JobsTags tag={data.tag.name} jobs={data.jobs.edges} />
+export default ({ data }) => (
+  <Tag tag={data.tag.name} jobs={data.jobs.edges} />
+)
 
 export const query = graphql`
   query TagsQuery($slug: String!) {

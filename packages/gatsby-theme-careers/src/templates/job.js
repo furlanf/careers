@@ -12,7 +12,7 @@ export const query = graphql`
         json
       }
       tags {
-        name,
+        name
         slug
       }
     }
