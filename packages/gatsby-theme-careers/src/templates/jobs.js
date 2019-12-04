@@ -1,8 +1,14 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import SEO from '../components/SEO'
 import Jobs from '../components/Jobs'
 
-export default ({ data }) => <Jobs jobs={data.jobs.edges} />
+export default ({ data }) => (
+  <>
+    <SEO />
+    <Jobs jobs={data.jobs.edges} />
+  </>
+)
 
 export const query = graphql`
   query JobsQuery {
